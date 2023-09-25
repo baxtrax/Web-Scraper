@@ -1,4 +1,4 @@
-# Web-Scraper
+# WebS craper
 Quick webscraper to quickly grab specific data off a few websites
 
 # Install
