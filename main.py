@@ -41,7 +41,7 @@ def main():
                 body = ''.join(t.text+'\n' for t in soup.select('div.entry-content')[0].select('p'))
 
         # Write data to files
-        with open(f"""01{idx}_{categ}.txt""", 'w') as file:
+        with open(f"""output/01{idx}_{categ}.txt""", 'w') as file:
             file.write('Author: ' + author + '\n') 
             file.write('Date: ' + timestamp + '\n')
             file.write('Publication: ' + pub + '\n\n')
